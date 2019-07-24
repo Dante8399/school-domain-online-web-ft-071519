@@ -2,7 +2,7 @@ class School
 attr_accessor :name, :roster
 def intialize(name)
 @name=name
-roster = {}
+@roster = {}
 end
 
 def add_student(name, grade)
@@ -20,13 +20,5 @@ def sort
     sorted[key] = values.sort
   end
   sorted
-end
-end
-
-
-  
-
-
-
 end
 
